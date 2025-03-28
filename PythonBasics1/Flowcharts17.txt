@@ -1,0 +1,74 @@
+Flowchart :
+Graphical representation of a process, system or algorithm
+It uses symbols ,arrows to show the sequence of steps needed to complete task
+flowcharts are useful in visualisation of how to solve a porblem and make the process easier to follow
+Terminal - > to start and stop the programming
+to take input or show output we use -> parallelogram
+process box -> steps that we do to solve a problem -> represented by rectangle box
+decision box -> rhombus -> for if and else statements
+arrow -> up and down arrow
+connector -> is acircle
+# flowchart to display max of 2 numbers
+
+
+start
+  |
+take the iput of first number (parallelogram)
+   |
+take the iput of second number (parallelogram)
+   |
+decision box to determine if the condition is true or not (rhombus) --
+   |                                                                  |  
+if decision is false o/p(parallelogram)                              if decision is true o/p(parallelogram)
+    |------------------------------------------------------------------|
+    stop
+
+flowchart to add 2 numbers
+
+start
+   |
+take the iput of first number (parallelogram)
+   |
+take the iput of second number (parallelogram)
+   |
+rectangle box to perform addition operation
+   |
+stop
+
+
+Pseudocode -> a simple way of describing an algorithm in plain language or a mix of code like 
+and natural language 
+it does not follow any specific programming language syntax making it easier to undersatnd even without
+programming language
+This is the step before writing actual code
+
+Pseudocode to find sum of 2 numbers
+
+begin
+input first number
+input second number
+sum = first number + second number
+print sum
+end
+
+any time you solve a problem you should know how it looks like before solving
+it is better to keep it on paper while soving the major part of problem
+
+
+process to solve a particular problem
+
+1. analyse the problem : i.e analyse the input , output and constarints
+2.  break down problem into smaller parts
+3. remember/enlist the concept (for example think how/where the dictionary,list,tuple,set is used)
+4. take 2 to 3 examples to get clear undersatnding without confusion
+5. write Pseudocode/scratch code on paper
+6. dry run it
+7. write down solution
+8. look out for edge cases/boundary conditions(say what if list list is empty)
+
+
+
+
+
+
+
