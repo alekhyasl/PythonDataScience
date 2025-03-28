@@ -1,3 +1,1 @@
-"# PythonLearnings" 
-"# PythonLeanings" 
-"# PythonDataScience" 
+"# PythonForDataScience" 
