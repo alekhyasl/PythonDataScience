@@ -1,0 +1,19 @@
+Multi Threading and Multi Processing
+
+Program -> sequence of instructions written in programming language(Ex :Python , c++)
+Ex: Google chrome is an .exe file, this is a program which includes how the browser should work
+Word, excel are some other examples
+
+Process -> A process is simply an instance of program that is being executed
+If i double click the google chrome process will get started
+
+Code segment -> 
+Data Segment -> has list of all global and static variables
+Heap Memory -> 
+stack -> acess to all local variables and function calls
+Register -> it is a temporary memory where we can store values for short time
+
+Each browser instance have seperate memory space, so one process cannot corrupt another process
+
+
+

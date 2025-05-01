@@ -1,0 +1,102 @@
+Difference between
+AI -> To create an application which can perform its own task without human intervention
+Ex: Netflix recommendation system
+i.e suppose you watch ACtion movies and show next recommendation in Action movies
+Ex: Self driving car
+Machine Learning : It is subset of AI
+It provides stats tools analyse, visualise , prediction, forecasting the data
+Deep Learning : It is subset of mavhine Learning
+It is implemented to mimic human brain i.e machine learns like a human brain
+Here it uses multi layered Neural network
+Data SCience : Will overlap all the above things (AI,ML,DL)
+
+
+
+Types of Machine Learning techniques
+1. Supervised ML techniques
+
+Suppose task is to predict house price and i have data set with data like
+size of house      # of rooms       price
+5000                5                  200
+6000                6                  500
+This is example for regression problem statement
+
+Here there are two types of features
+1.Independent/output features like size of house, # of rooms
+2.dependent features like price
+
+
+here we have 2 types of problem statements
+1. Regression
+2.Classification
+
+In Rregression problem statement we have dependent variable as contionuous
+In Classification problem statement we have dependent variable as categorical 
+
+Example for Classification problem statement
+NO of study hours       No of play hours      pass/Fail
+4                           2                   pass
+6                           7                   fail
+
+If the dependent variable have only 2 outputs it is binary Classification
+If the dependent variable have more than 2 outputs it is multiclass Classification
+
+2. unsupervised ML techniques
+Here we do not know the output feature, i.e we do not predict anything here
+instead we find clusters
+
+Ex : customer segmentation
+Salary       spending score(1-10)
+20000           9
+45000           5
+here we do not have o/p feature i.e there is no need to predict the spending score based on Salary
+
+Suppose i have an ecommerce company and i have to send mail with some discount coupon to people
+ based on spending scores
+we create clusters here like
+less salary and spending score high
+high salary and spending score median
+high salary and spending score high etc
+in future when i launch the product i give more discount to 'high salary and spending score high'
+cluster people
+
+Here we have different types of clusters
+
+Algorithms to be learn in supervised ML
+1. Linear Regression
+2. Ridge and Lasso
+3.Elastic Net
+4. Logistic Regression (classification)
+5.Decision Tree (solves both classification and regression)
+6.Random forest (solves both classification and regression)
+7. Adaboost (solves both classification and regression)
+8.xgboost (solves both classification and regression)
+
+Unsupervised ML Algorithms
+1. k means
+2. heirarchial mean
+3. DB scan clustering
+
+3. Reinforcement ML techniques
+
+Application will learn itself 
+Ex : baby learns new things as he/she grows up
+
+
+Equation of line 3D plane and hyper plane
+
+line equation:
+y = mx + c
+ax + by + c = 0
+slope -> with unit movement in x axis what is the movement in y axis
+c -> y intercept i.e at x = 0 where does the straight line meet y axis
+
+ax + by + c = 0
+by + c = -ax
+by = -ax - c
+y = -ax/b -c/b
+m -> -a/b
+c -> -c/b
+
+
+

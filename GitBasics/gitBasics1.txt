@@ -1,0 +1,50 @@
+git -> open source distributed version control system
+create github account
+create repository (PythonLearnings)
+Download git for windows
+Install it
+to check if git is installed open command prompt and type 'git --version'
+installed git version should be displayed
+
+Go to command line and navigate to the folder in command line
+say in my case I have to navigate to C:\Users\alekh\Documents\UdemyLearnings\PythonDSA
+cd C:\Users\alekh\Documents\UdemyLearnings\PythonDSA
+use the command git init
+git init -> initializes git repository
+
+Now you have to setup the configuration i.e username and email
+in order to know that who commited the code 
+git config --global user.name "Your Name"
+git config --global user.email "youremail@yourdomain.com"
+first check if they are already configured or not in command prompt using
+git config --global user.name
+git config --global user.email
+use command echo "# PythonLearnings" >> README.md in command prompt to create README files
+git status -> will let you know about untracked files and commits
+untracked files means these files are not yet tracked by git
+when the command "git add README.md" is used this file is now tracked by 
+git but is not committed to git and is unstaged
+When the files need to be pushed to repository we will send 
+them to staging environment initially and then pushed
+when i use command git commit -m "This is my first commit" all the files are in 
+staging environment
+git branch -> shows the name of branch to which code is pushed
+git branch -M main -> is used to change banch to main
+now check by using git branch if branch is changed to main
+to make sure our local repository is connect to github repository we use
+git remote add origin https://github.com/alekhyamogalapu/PythonLearnings.git
+git remote -v -> here we can see from where the file is fetching and where it is getting pushed
+git add . -> to make sure all the files are need to be sent to git
+To check which remote repository your local folder is connected to we use
+git remote -v
+If it is connect to different repository
+git remote remove origin
+use git remote add origin <new-repository-URL>
+
+
+to clone existin repository to your local
+cd path(where the repository should be cloned)
+git clone https://github.com/alekhyasl/PythonDataScience.git
+git restore --staged "example.txt" -> to unstage the staged files
+git reset "example.txt" -> this also retores the mentioned file
+
